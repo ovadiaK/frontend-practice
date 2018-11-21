@@ -1,0 +1,23 @@
+ul{
+    list-style-type: square;
+
+}
+
+.recipe ol{
+    color: midnightblue;
+    list-style-type: lower-roman;
+
+}
+.recipe ul{
+    color:darkred;
+    list-style: none;
+}
+
+h2.dish-name{
+    color: teal;
+    text-decoration-style: dotted;
+    text-decoration: underline darkgreen;
+    border: 0.3em solid teal;
+    border-radius: 1rem;
+
+}
