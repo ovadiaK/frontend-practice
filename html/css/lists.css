@@ -22,6 +22,47 @@ h2.dish-name {
     border-radius: 1rem;
 }
 
-th.name, td.name {
-    background-color: burlywood;
+th.name tr:hover, td.name tr:hover {
+    background-color: goldenrod;
 }
+
+td.person {
+    color: darkblue;
+}
+
+td.animal {
+    color: #593e08;
+}
+
+div.table {
+    height: 10em;
+    width: 20em;
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    overflow: scroll;
+    overflow-scrolling: touch;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: goldenrod;
+}
+
+th, td {
+    border: medium groove #004080;
+    padding: 0.3em;
+}
+
+th {
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+    border-bottom: thick ridge;
+}
+thead,tfoot{
+    background-color:#004080;
+    color:yellowgreen;
+}
+tr:nth-child(even){background-color: bisque}
