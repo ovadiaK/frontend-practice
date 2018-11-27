@@ -1,0 +1,11 @@
+article.recipe#hummus {
+    background-image: url("../images/hummus.jpg");
+    background-repeat: repeat-x;
+    background-size:100% auto;
+    background-position:center
+}
+article.recipe#soup {
+    background-image: url("../images/soup.jpg");
+    background-size:100% auto;
+    background-position:center
+}

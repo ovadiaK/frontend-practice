@@ -1,25 +1,33 @@
 ul {
     list-style-type: square;
-
 }
 
 .recipe ol {
     color: midnightblue;
     list-style-type: lower-roman;
-
+    background-color: blanchedalmond;
 }
 
 .recipe ul {
     color: darkred;
     list-style: none;
+    background-color: blanchedalmond;
+}
+.recipe h3{
+    background: blanchedalmond;
+}
+
+.recipe p{
+    background: blanchedalmond;
 }
 
 h2.dish-name {
+    padding: 0.5em;
     color: teal;
-    text-decoration-style: dotted;
-    text-decoration: underline darkgreen;
-    border: 0.3em solid teal;
     border-radius: 1rem;
+    border-style: none;
+    background-color: darkorange;
+    box-shadow: 0 0 0.5em black ;
 }
 
 th.name tr:hover, td.name tr:hover {
