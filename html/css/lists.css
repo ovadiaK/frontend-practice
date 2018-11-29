@@ -13,11 +13,12 @@ ul {
     list-style: none;
     background-color: blanchedalmond;
 }
-.recipe h3{
+
+.recipe h3 {
     background: blanchedalmond;
 }
 
-.recipe p{
+.recipe p {
     background: blanchedalmond;
 }
 
@@ -27,7 +28,7 @@ h2.dish-name {
     border-radius: 1rem;
     border-style: none;
     background-color: darkorange;
-    box-shadow: 0 0 0.5em black ;
+    box-shadow: 0 0 0.5em black;
 }
 
 th.name tr:hover, td.name tr:hover {
@@ -69,12 +70,23 @@ th {
     padding-bottom: 0.3em;
     border-bottom: thick ridge;
 }
-thead,tfoot{
-    background-color:#004080;
-    color:yellowgreen;
-}
-tr:nth-child(even){background-color: bisque}
 
+thead, tfoot {
+    background-color: #004080;
+    color: yellowgreen;
+}
+
+tr:nth-child(3n) {
+    background-color: bisque
+}
+
+tr:nth-child(3n+2) {
+    background-color: azure
+}
+
+tr:active {
+    cursor: grab
+}
 
 iframe {
     border: 10px solid red;

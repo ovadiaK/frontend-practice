@@ -1,7 +1,7 @@
 body, html {
     font-family: sans-serif;
-    font-size:20px;
-    margin-left:2rem;
+    font-size: 20px;
+    margin-left: 2rem;
     margin-right: 4rem;
     line-height: 1.2em;
 }
@@ -9,26 +9,41 @@ body, html {
 p {
     line-height: 1;
     text-align: justify;
-    margin-left:3rem;
+    margin-left: 3rem;
 }
 
 summary {
     font-style: italic;
 }
-nav{
+
+nav {
     background: aquamarine;
-    width:10rem;
+    width: 10rem;
 }
-h1{
+
+h1 {
     line-height: 1.2em;
-    background:purple;
+    background: purple;
     box-sizing: border-box;
     text-align: center;
-    Color:white;
+    Color: white;
 }
-article{
+
+article {
     margin: 2rem;
     border: 1em solid blueviolet;
     padding: 2em;
     border-radius: 8em;
+}
+
+
+a, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: goldenrod;
+}
+a:active{
+    background-color:palegreen;
 }
