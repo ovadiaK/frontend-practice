@@ -1,6 +1,13 @@
+body.animal{
+    display:flex;
+    flex-flow: row wrap;
+}
 .animal > article {
     border: 1em dotted forestgreen;
+    flex:1
 }
 .animal article img{
-    width: 100%;
+    margin:1rem;
+    min-width: 200px;
+    max-width: 500px;
 }
