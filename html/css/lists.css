@@ -1,3 +1,12 @@
+ul {
+    list-style-type: square;
+}
+
+.recipe ol {
+    color: midnightblue;
+    list-style-type: lower-roman;
+    background-color: blanchedalmond;
+}
 
 
 th.name tr:hover, td.name tr:hover {
@@ -39,12 +48,23 @@ th {
     padding-bottom: 0.3em;
     border-bottom: thick ridge;
 }
-thead,tfoot{
-    background-color:#004080;
-    color:yellowgreen;
-}
-tr:nth-child(even){background-color: bisque}
 
+thead, tfoot {
+    background-color: #004080;
+    color: yellowgreen;
+}
+
+tr:nth-child(3n) {
+    background-color: bisque
+}
+
+tr:nth-child(3n+2) {
+    background-color: azure
+}
+
+tr:active {
+    cursor: grab
+}
 
 iframe {
     border: 10px solid red;
