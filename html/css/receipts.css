@@ -1,11 +1,36 @@
-article.recipe#hummus {
-    background-image: url("../images/hummus.jpg");
-    background-repeat: repeat-x;
+
+article.recipe{
+    background-repeat:repeat;
     background-size:100% auto;
-    background-position:center
+    background-position:center;
+    display:flex;
+    flex-flow: row wrap;
 }
-article.recipe#soup {
-    background-image: url("../images/soup.jpg");
-    background-size:100% auto;
-    background-position:center
+article.recipe > *{
+    flex: 1;
+    width: 15%;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 0.5em black;
+    border-radius: 1rem;
+    border-style: none;
+    padding: 0.5em;
+}
+ul {
+    list-style-type: square;
+}
+
+.recipe ol {
+    list-style-position:inside;
+    color: midnightblue;
+    list-style-type:decimal;
+}
+
+.recipe ul {
+    color: darkred;
+    list-style: none;
+}
+
+h2.dish-name {
+    color: teal;
+    background-color: darkorange;
 }

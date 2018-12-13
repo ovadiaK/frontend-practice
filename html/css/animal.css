@@ -1,0 +1,6 @@
+.animal > article {
+    border: 1em dotted forestgreen;
+}
+.animal article img{
+    width: 100%;
+}
