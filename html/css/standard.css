@@ -1,0 +1,32 @@
+
+.standard {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100vh;
+}
+
+
+.standard > * {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.standard footer,
+.standard header {
+    flex: 0 1 100vw;
+}
+
+.standard footer ul,
+.standard header ul {
+    display: flex;
+    flex-flow: row;
+}
+
+.standard footer ul li,
+.standard header ul li {
+    flex: 1;
+}

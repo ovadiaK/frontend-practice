@@ -1,13 +1,18 @@
-body.animal{
-    display:flex;
+body.animal {
+    display: flex;
     flex-flow: row wrap;
+    background: darksalmon;
 }
+
 .animal > article {
-    border: 1em dotted forestgreen;
-    flex:1
+    border: 1em solid forestgreen;
+    background-color:forestgreen;
+    flex: 1;
+    max-width: calc(20vw + 200px);
+    padding:inherit;
+    border-radius:0;
 }
-.animal article img{
-    margin:1rem;
-    min-width: 200px;
-    max-width: 500px;
+
+.animal article img {
+    max-width: calc(20vw + 200px);
 }
