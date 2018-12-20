@@ -49,6 +49,7 @@ a, a:visited {
 
 a:hover {
     color: goldenrod;
+    padding-top: 1px;
 }
 
 a:active {

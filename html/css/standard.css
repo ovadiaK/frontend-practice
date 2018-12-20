@@ -29,4 +29,6 @@
 .standard footer ul li,
 .standard header ul li {
     flex: 1;
+    font-family: 'caveat';
+    font-size: 3rem;
 }

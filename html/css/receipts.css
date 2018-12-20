@@ -6,6 +6,7 @@ article.recipe{
     display:flex;
     flex-flow: row wrap;
     margin:1rem;
+    background-image: url("../images/bears.jpeg");
 }
 article.recipe > *{
     flex: 1;
