@@ -40,6 +40,9 @@ footer {
     position: fixed;
     right: 0;
     bottom: 0;
+    border: blueviolet solid 5px;
+    border-radius: 10px;
+    background: blueviolet;
 }
 
 

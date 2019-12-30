@@ -37,3 +37,7 @@ h2.dish-name {
     color: teal;
     background-color: darkorange;
 }
+img {
+    object-fit: contain;
+    width: 20rem;
+}
