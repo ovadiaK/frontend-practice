@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5879a517-30d8-4b94-ac4e-c9e65afa5528" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/css/receipts.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/receipts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/animals.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/animals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/animation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/practise.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/practise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/recipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/recipes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,7 +37,6 @@
   <component name="ProjectId" id="1VihZUIO2zN0Ar7AlZT6u12umnA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -46,8 +46,14 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../css-cheat-sheet" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -60,20 +66,19 @@
       <recent name="$PROJECT_DIR$/html/images" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -82,6 +87,22 @@
     <MESSAGE value="flexbox animals" />
     <MESSAGE value="more flexbox and layout standards" />
     <MESSAGE value="finished course one" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished course one" />
+    <MESSAGE value="small visual changes" />
+    <MESSAGE value="small animations added" />
+    <option name="LAST_COMMIT_MESSAGE" value="small animations added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="98" width="912" height="909" key="CommitChangelistDialog2" timestamp="1589126670816">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="532" y="98" width="912" height="909" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1589126670816" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589125102466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1589125102466" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589126675416">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1589126675416" />
   </component>
 </project>
