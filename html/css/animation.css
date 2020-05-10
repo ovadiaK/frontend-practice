@@ -1,0 +1,58 @@
+button{
+    margin: 40px;
+}
+
+#call-cops {
+    animation-name: rotatingBeacon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background: linear-gradient(
+            90deg,
+            #3399ff, #cce6ff,
+            #3399ff, #cce6ff,
+            #3399ff
+    );
+    background-size: 200% 200%;
+}
+
+@keyframes rotatingBeacon {
+    0% {
+        background-position: 100% 100%;
+        box-shadow: -30px 0 30px #3399ff, -20px 0 20px #3399ff, -10px 0 10px #3399ff;
+    }
+
+    50% {
+        background-position: 0 0;
+        box-shadow: 30px 0 30px #3399ff, 20px 0 20px #3399ff, 10px 0 10px #3399ff;
+
+    }
+
+    100% {
+        background-position: 100% 100%;
+        box-shadow: -30px 0 30px #3399ff, -20px 0 20px #3399ff, -10px 0 10px #3399ff;
+    }
+}
+
+#rainbow-button {
+    background: linear-gradient(105deg,
+        /* Base gradient stops */ #f6d365, #fda085, #f6d365, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3,
+        /* Repeat your base gradient stops */ #f6d365, #fda085, #f6d365, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3,
+        /* Repeat your first gradient stop */ #f6d365);
+
+    background-size: 200% 200%;
+    animation: rainbow 5s linear infinite;
+    border: 0;
+    padding: 25px;
+    font-size: 40px;
+    color: #fff;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 100% 100%
+    }
+    100% {
+        background-position: 0% 0%
+    }
+}
